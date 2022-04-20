@@ -20,6 +20,8 @@ The code is organized in the following folders:
 
 ### Training a model
 
+Python version >= 3.7 is required to install and run the code.
+
 To train one of the normalizing flows described in the paper,
 first clone the deepmind-research repository in a folder of your choice:
 
