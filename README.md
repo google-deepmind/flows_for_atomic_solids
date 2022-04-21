@@ -55,7 +55,7 @@ The Colab notebook `colab/explore_trained_models.ipynb` can be used
 to access parameters of a set of models that have been trained as described
 in the paper. The Colab will load the model and reproduce the energy,
 radial distribution and work figures, as well as compute a free-energy
-estimate.
+estimate. A Colab runtime with GPU or TPU accelerator is recommended.
 
 ## References
 
