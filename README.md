@@ -1,7 +1,8 @@
 # Flows for atomic solids
 
 The code in this repository can be used to train normalizing flow models
-to generate samples of atomic solids, as described in [1]. It also
+to generate samples of atomic solids, as described in our paper
+[Normalizing flows for atomic solids](http://iopscience.iop.org/article/10.1088/2632-2153/ac6b16). It also
 contains a Colab notebook that loads parameters of already trained models
 and samples from them, plotting observables similar to the figures in the
 paper.
@@ -56,13 +57,6 @@ to access parameters of a set of models that have been trained as described
 in the paper. The Colab will load the model and reproduce the energy,
 radial distribution and work figures, as well as compute a free-energy
 estimate. A Colab runtime with GPU or TPU accelerator is recommended.
-
-## References
-
-[1] Peter Wirnsberger, George Papamakarios, Borja Ibarz, Sébastien Racanière, Andrew J. Ballard, Alexander Pritzel and Charles Blundell.
-*Normalizing flows for atomic solids*. [arXiv:2111.08696](
-https://doi.org/10.48550/arXiv.2111.08696)
-
 
 ## Disclaimer
 
