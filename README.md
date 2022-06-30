@@ -17,6 +17,7 @@ The code is organized in the following folders:
 * `experiments`: configuration files for Lennard-Jones and monatomic water experiments, and the script to run training on them.
 * `models`: modules to build normalizing flow models.
 * `systems`: definitions of the Lennard-Jones and monatomic water potentials used to train the models.
+* `tutorial`: contains a Colab notebook to train a small model from scratch on the 8-particle monatomic Water system with some code to be implemented.
 * `utils`: utilities for building lattices and computing observables from the model samples.
 
 ### Training a model
