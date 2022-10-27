@@ -20,6 +20,6 @@
 python3 -m venv flows_for_atomic_solids_env
 source flows_for_atomic_solids_env/bin/activate
 pip install --upgrade pip
-pip install -r flows_for_atomic_solids/requirements.txt
+pip install --require-hashes -r flows_for_atomic_solids/requirements.txt
 
 python -m flows_for_atomic_solids.experiments.train --system='lj_32' --num_iterations=0
